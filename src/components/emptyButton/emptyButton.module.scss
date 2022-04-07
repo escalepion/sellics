@@ -1,0 +1,16 @@
+@import 'styles/variables';
+
+.emptyButton {
+  background-color: $color-pole-gray;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 6rem;
+  .plusIcon {
+    color: $color-light-gray;
+    font-size: 2rem;
+  }
+}

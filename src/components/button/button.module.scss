@@ -1,0 +1,16 @@
+@import 'styles/variables';
+
+.button {
+  background-color: $color-main-bg;
+  border: none;
+  border-radius: 8px;
+  color: $color-white;
+  cursor: pointer;
+  padding: 1rem .5rem;
+  width: 7rem;
+
+  &.dark {
+    background-color: $color-dark-gray;
+    margin-right: 1rem;
+  }
+}

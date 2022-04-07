@@ -1,0 +1,27 @@
+@import "styles/variables";
+
+.layoutWrapper {
+  background-color: $color-main-bg;
+  width: 100%;
+  max-width: 30rem;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 2rem;
+
+  .bodyWrapper {
+    background-color: $color-white;
+    .header {
+      border-bottom: 1px solid gray;
+      .headerText {
+        padding: 1rem;
+      }
+    }
+  }
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}

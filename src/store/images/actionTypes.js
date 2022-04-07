@@ -1,0 +1,5 @@
+export const GET_IMAGE = "GET_IMAGE";
+export const GET_IMAGE_SUCCESS = "GET_IMAGE_SUCCESS";
+export const GET_IMAGE_FAIL = "GET_IMAGE_FAIL";
+export const ADD_SELECTED_IMAGE = "ADD_SELECTED_IMAGE";
+export const REJECT_IMAGE = "REJECT_IMAGE";
